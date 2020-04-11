@@ -31,9 +31,70 @@ button {
   margin-top: 15px;
   font-weight: bold;
   font-size: 14px;
+  width: 300px;
 }
 
 div li button {
   margin: 0 15px;
   background: #ca4949;
+}
+
+.repository {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  align-content: left;
+  padding: 5px;
+}
+
+.repository .title {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.repository .title .like-btn {
+  min-width: 30px;
+  max-width: 50px;
+  padding: 5px;
+  border-radius: 15px;
+  background-color: #7159c1;
+}
+
+.repository li {
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.repository p {
+  padding-left: 20px;
+}
+
+div form {
+  display: flex;
+  flex-direction: column;
+  align-items: initial;
+  align-content: flex-start;
+}
+
+div form h2 {
+  margin-top: 30px;
+}
+
+div form input {
+  width: 300px;
+  height: 30px;
+  margin-top: 10px;
+  padding-left: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+div form .small {
+  font-size: 0.8em;
+  color: #999;
 }
